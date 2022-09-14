@@ -1,0 +1,12 @@
+body {
+	text-align: center;
+	font-family: fantasy;
+	background-image: radial-gradient(circle at 118.3% 68.3%, #00bab1 0, #00babc 3.57%, #00bac7 7.14%, #00b9d2 10.71%, #00b8dc 14.29%, #00b7e4 17.86%, #00b5eb 21.43%, #00b2f1 25%, #00b0f6 28.57%, #2eadf9 32.14%, #52a9fa 35.71%, #6ca6fa 39.29%, #82a2f8 42.86%, #959df4 46.43%, #a799ef 50%, #b795e8 53.57%, #c590e1 57.14%, #d18cd8 60.71%, #db88ce 64.29%, #e485c3 67.86%, #eb82b8 71.43%, #f081ad 75%, #f480a1 78.57%, #f68096 82.14%, #f6818b 85.71%, #f48380 89.29%, #f28675 92.86%, #ed8a6c 96.43%, #e88d63 100%);
+	font-size: 36px;
+	color: white;
+}
+
+.ppt {
+	color: green;
+	text-decoration: none;
+}
