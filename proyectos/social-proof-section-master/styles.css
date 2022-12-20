@@ -117,7 +117,7 @@ h2{
     .max{
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(8, 100px) ;
+        grid-template-rows: repeat(6, 100px) ;
         margin: 20px 130px;
     }
 
