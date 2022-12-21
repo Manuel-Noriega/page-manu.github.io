@@ -7,6 +7,9 @@
 
 body {
     font-family: 'League Spartan', sans-serif;
+    background-image: url('images/bg-pattern-top-mobile.svg'), url('images/bg-pattern-bottom-mobile.svg');
+    background-position: top, bottom;
+    background-repeat: no-repeat;
 }
 .container1{
     text-align: center;
@@ -103,12 +106,20 @@ h2{
 .attribution {
     font-size: 11px;
     text-align: center;
+    
 }
+
 
 .attribution a{
     color: hsl(228, 45% 44%);
 }
-
+@media screen and (min-width: 376px) {
+    body{
+        background-image: url('images/bg-pattern-top-desktop.svg'), url('images/bg-pattern-bottom-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: 0 -85px, right bottom -30px;
+    }
+}
 @media screen and (min-width: 1024px) {
     /* body{
         
@@ -117,7 +128,7 @@ h2{
     .max{
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(6, 100px) ;
+        grid-template-rows: repeat(6, 100px);
         margin: 20px 130px;
     }
 
@@ -174,7 +185,9 @@ h2{
         grid-template-columns: repeat(12, 1fr); */
         /* margin-top: 0px; */
         display: flex;
-        justify-content: center;
+        /* Anterior */
+        /* justify-content: center; */
+        justify-content: space-around;
     }
 
     .containerI{
@@ -199,11 +212,31 @@ h2{
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1240px) {
+@media screen and (min-width: 1023px) and (max-width: 1230px) {
     .max{
         margin: 20px 30px;
     }
     .container1{
         margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 1560px) {
+    .stars{
+        width: 400px;
+        /* padding: 20px; */
+        margin: 0;
+        margin-top: 10px;
+        
+    }
+    .s1{
+        align-self: flex-start;
+    }
+
+    .s2{
+        align-self: center;
+    }
+    .s3{
+        align-self: flex-end;
     }
 }
