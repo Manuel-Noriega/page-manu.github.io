@@ -53,10 +53,27 @@ nav a:hover {
 
 /* ---------header----------- */
 
-header h1{
+.name {
+    font-family: monospace;
+    border-right: 4px solid;
+    box-sizing: content-box;
+    width: 7ch;
     text-align: center;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 54px;
+    white-space: nowrap;
+    animation: animated 3s steps(7), cursor .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes animated {
+    from {width: 0}   
+}
+
+@keyframes cursor {
+    50%{
+        border-color: transparent;
+    }
 }
 
 header p{
