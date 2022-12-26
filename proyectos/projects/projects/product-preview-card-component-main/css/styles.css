@@ -126,7 +126,7 @@ body{
     color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 900px) {
     .card{
         width: 600px;
         min-height: 450px;
